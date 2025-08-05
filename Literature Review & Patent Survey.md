@@ -1,4 +1,4 @@
-# UAV-Assisted Agricultural Pest Surveillance - Literature & Patent Survey
+# UAV-Assisted Agricultural Pest Surveillance - Literature Review & Patent Survey
 
 ## Executive summary
 
