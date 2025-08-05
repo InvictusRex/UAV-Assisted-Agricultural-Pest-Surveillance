@@ -2,7 +2,7 @@
 
 UAV-Assisted Agricultural Pest Surveillance is a deep learning-powered system for detecting and monitoring crop pests using aerial imagery captured by drones. Leveraging YOLO-based object detection, it enables day and night pest surveillance to support precision agriculture and reduce crop losses.
 
-## 🔗Link to Literature Review: [Literature Review](https://github.com/InvictusRex/UAV-Assisted-Agricultural-Pest-Surveillance/blob/main/Literature%20Review.md)
+## 🔗Link to Literature Review: [Literature Review](https://github.com/InvictusRex/UAV-Assisted-Agricultural-Pest-Surveillance/blob/main/Literature%20Review%20%26%20Patent%20Survey.md)
 
 ### Reference Research Papers:
 
