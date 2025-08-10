@@ -15,11 +15,18 @@ This document consolidates the most relevant academic contributions and patent f
    3. Alsadik et al., _Remote Sensing Technologies Using UAVs for Pest and Disease Monitoring_ (Remote Sensing, 2024) — review
    4. Subramanian et al., _Drones in Insect Pest Management_ (Frontiers in Agronomy, 2021) — review
    5. _A Framework for Agricultural Pest and Disease Monitoring Based on IoT and UAVs_ (PMC) — systems review
+   6. Nasim et al., _Artificial intelligence driven drone observation and pest control in banana crop_ (Khyber Journal, 2025)
+   7. Josephat et al., _Design and development of agricultural drone for precision fertilizer application_ (Results in Engineering, 2025)
+   8. Safaeinejad et al., _Reducing energy and environmental footprint in agriculture_ (PLOS ONE, 2025)
 3. Patent summaries (technical scope & claim emphasis)
    - US 2017/0231213 A1
    - US 2017/0089761 A1
    - US 2022/0211026 A1
    - US 10,364,029 B2
+   - WO 2021/196062 A1
+   - JP 3217561 U
+   - US 11,147,257 B2
+   - KR 20230062713 A
 4. Comparative analysis: technical gaps and limitations
 5. Proposed novelty directions and patentable claim drafts
 6. References
@@ -113,7 +120,7 @@ AIDN was developed to address the specific constraints of detecting insects in U
 **Key takeaways and limitations**
 
 - AIDN demonstrates that careful multi-scale fusion and loss reweighting materially improve detection of tiny aerial insects.
-- The network’s computational complexity may limit deployment on strictly constrained embedded devices without further pruning or quantization.
+- The network's computational complexity may limit deployment on strictly constrained embedded devices without further pruning or quantization.
 - Generalization to agricultural pest species not present in biodiversity datasets may require additional domain adaptation.
 
 ---
@@ -165,6 +172,91 @@ AIDN was developed to address the specific constraints of detecting insects in U
 **Practical recommendations**
 
 - Strong emphasis on dataset standardization, multimodal annotation reconciliation, and closed-loop decision support integration (alerts, actuation, logging).
+
+---
+
+### 2.6 Nasim et al. - _Artificial intelligence driven drone observation and pest control in banana crop: A systematic review._ Khyber Journal of Medical Research (2025)
+
+**Link:** https://doi.org/10.71146/kjmr197
+
+**Objective & context**
+
+Nasim and colleagues conducted a systematic review exploring the integration of artificial intelligence with drone systems for detecting and managing banana crop diseases. Their work demonstrates how standard leaf imagery can be processed using image classification and machine learning techniques to diagnose diseases and provide treatment recommendations.
+
+**Technical approach**
+
+- The review examines various image classification algorithms applied to banana leaf disease detection, including traditional machine learning approaches and deep learning architectures.
+- Focus on developing treatment recommendation systems that guide farmers on appropriate pesticide selection and application timing based on AI-driven disease identification.
+- Discussion of smart farming integration where detection systems interface with treatment decision workflows.
+
+**Key findings & implications**
+
+- The study highlights the growing potential of intelligent farming tools that enable early disease detection while providing actionable treatment guidance to farmers.
+- Strong emphasis on autonomous systems that can both identify plant diseases and recommend targeted pesticide applications.
+- This work provides direct conceptual support for patent applications involving autonomous drones that combine disease identification with targeted spraying capabilities.
+
+---
+
+### 2.7 Josephat et al. - _Design and development of agricultural drone for precision fertilizer application to optimize crop yields._ Results in Engineering (2025)
+
+**Link:** https://doi.org/10.1016/j.rineng.2025.106267
+
+**Objective & context**
+
+Josephat et al. developed a precision agricultural drone specifically designed for efficient fertilizer and pesticide application while minimizing health risks to farmers. The study focuses on practical implementation challenges and system optimization for real-world deployment.
+
+**Technical specifications**
+
+- **Flight control system:** Advanced flight control architecture with PID tuning for spray accuracy and system stability optimization.
+- **Spraying mechanism:** Integrated sprayer systems with real-time flow rate control and droplet size management.
+- **Monitoring capabilities:** Real-time crop monitoring tools for adaptive application rate adjustment.
+- **System integration:** Comprehensive UAV platform designed for large-scale farming operations with emphasis on scalability.
+
+**Performance metrics & validation**
+
+- Demonstrated spray accuracy improvements through PID controller optimization.
+- Field testing results showing effective integration into existing farming workflows.
+- System stability analysis under various environmental conditions (wind, humidity, temperature variations).
+
+**Key takeaways**
+
+- Provides strong practical evidence supporting the viability of ML-enabled drones for targeted pesticide spraying applications.
+- Demonstrates scalability potential for commercial agricultural operations.
+- Technical implementation details support patent development for precision spraying systems.
+
+---
+
+### 2.8 Safaeinejad et al. - _Reducing energy and environmental footprint in agriculture: A study on drone spraying vs. conventional methods._ PLOS ONE (2025)
+
+**Link:** https://doi.org/10.1371/journal.pone.0323779
+
+**Objective & context**
+
+Safaeinejad and colleagues conducted a comprehensive comparative analysis examining energy consumption and environmental impact of drone-based pesticide spraying versus conventional tractor-based methods in wheat farming operations.
+
+**Methodology & approach**
+
+- **Life cycle assessment (LCA):** Systematic evaluation of energy consumption and greenhouse gas emissions across the entire operational lifecycle.
+- **Comparative analysis:** Direct comparison between UAV-based and traditional tractor-based spraying systems.
+- **Environmental impact metrics:** Carbon footprint assessment, energy efficiency calculations, and sustainability indicators.
+
+**Key findings**
+
+- **Energy efficiency:** Drones demonstrated significantly lower energy consumption compared to conventional tractor methods.
+- **Environmental benefits:** Reduced greenhouse gas emissions and smaller overall environmental footprint for drone-based systems.
+- **Sustainability advantages:** UAV technology offers a more environmentally sustainable alternative to traditional spraying methods.
+
+**Limitations & future considerations**
+
+- **Battery constraints:** Current battery technology limits flight duration and operational range.
+- **Training requirements:** Need for specialized operator training presents adoption challenges.
+- **Scalability concerns:** Questions remain about deployment across very large agricultural areas.
+
+**Implications for patent development**
+
+- Strong environmental and efficiency justification for drone-based spraying technologies.
+- Identifies specific technical challenges (battery life, operational range) that could be addressed in patent claims.
+- Supports sustainability arguments for innovative UAV spraying systems.
 
 ---
 
@@ -227,6 +319,67 @@ AIDN was developed to address the specific constraints of detecting insects in U
 
 ---
 
+### 3.5 WO 2021/196062 A1 - _Agricultural Drone System for Pest Control_
+
+**Link:** https://patents.google.com/patent/WO2021196062A1/en
+
+**Claim focus**
+
+- International patent application covering an integrated agricultural drone system specifically designed for pest control operations. Claims include flight control mechanisms, pest detection sensors, and targeted application systems for pesticides or biological control agents.
+- Method claims describe autonomous flight patterns optimized for crop coverage and pest monitoring workflows.
+
+**Implications**
+
+- Broad international coverage for pest control drone systems; future filings should carefully examine claim scope to identify potential overlaps or opportunities for differentiation through novel detection algorithms or application mechanisms.
+
+---
+
+### 3.6 JP 3217561 U - _Pest Control Drone Utility Model_
+
+**Link:** https://patents.google.com/patent/JP3217561U/en
+
+**Claim focus**
+
+- Japanese utility model focusing on practical design elements of pest control drones including structural configurations, mounting systems for pest control equipment, and user interface components.
+- Emphasizes practical implementation aspects rather than algorithmic or software-based innovations.
+
+**Implications**
+
+- Regional protection in Japan for hardware design elements; software and algorithm-focused patent applications may have reduced overlap concerns with this utility model registration.
+
+---
+
+### 3.7 US 11,147,257 B2 - _Autonomous Agricultural System with Pest Detection_
+
+**Link:** https://patents.google.com/patent/US11147257B2/en
+
+**Claim focus**
+
+- Granted patent covering autonomous agricultural systems incorporating pest detection capabilities through sensor arrays and automated response mechanisms.
+- Claims include computer vision systems for pest identification, decision-making algorithms for treatment selection, and integration with precision application equipment.
+- Method and system claims for coordinating multiple autonomous units in field operations.
+
+**Implications**
+
+- Strong prior art in the autonomous pest detection and treatment space; new applications should focus on novel algorithmic approaches, sensor fusion techniques, or specialized application methods to establish differentiation.
+
+---
+
+### 3.8 KR 20230062713 A - _Smart Pest Control Drone System_
+
+**Link:** https://patents.google.com/patent/KR20230062713A/en
+
+**Claim focus**
+
+- Korean patent application for a smart pest control drone system featuring AI-based pest recognition, automated flight path planning, and precision spraying mechanisms.
+- Claims cover integration of machine learning algorithms with drone hardware for real-time pest detection and targeted treatment delivery.
+
+**Implications**
+
+- Recent application indicating active development in this space; demonstrates market interest and competitive landscape evolution. Patent claims should be crafted to highlight specific technical advances beyond general AI integration approaches.
+
+---
+
 ## 4. Comparative analysis & Technical gaps
 
 1. **Small-object detection remains the bottleneck.**
@@ -244,6 +397,14 @@ AIDN was developed to address the specific constraints of detecting insects in U
 4. **Dataset scarcity in the aerial, multimodal domain.**
    - While sizeable insect datasets exist (IP102), matched RGB+thermal aerial datasets with geolocation and per-instance annotations are uncommon, limiting reproducible benchmarking.
 
+5. **Patent landscape shows hardware-focused protection with algorithmic gaps.**
+
+   - Most existing patents emphasize mechanical systems, sensor hardware, and general system integration. Specific algorithmic innovations in multimodal fusion, attention mechanisms, and co-training approaches appear less protected.
+
+6. **Environmental and efficiency advantages are well-documented but implementation challenges remain.**
+
+   - Recent literature strongly supports the environmental benefits of drone-based approaches, but practical deployment obstacles (battery life, operator training, scalability) present opportunities for technical innovation.
+
 ---
 
 ## 5. Proposed novelty directions (technical details) and illustrative patentable claim outlines
@@ -253,22 +414,19 @@ AIDN was developed to address the specific constraints of detecting insects in U
 **Technical specification**
 
 - **Input:** Synchronously captured RGB, thermal, and NIR frames, pre-aligned via a geometric registration module.
-- **Per-modality encoders:** Lightweight CNN encoders producing multi-scale feature pyramids, etc.
-- **Super-resolution candidate sampler:** A region proposal module selects candidate boxes with confidence; corresponding RGB patches are upsampled by SR module (ResNet-based) to resolution and re-encoded.
-- **Attention-guided fusion block:** For each scale, fused feature where attention weights are spatially computed and normalized across modalities. Channel and spatial attention components are used.
-- **Detection head:** YOLO-style multi-scale detection heads operate on fused features to predict.
-- **Training objective:** Joint losses - is a composite (localization + classification + confidence calibration) and is pixel / perceptual loss.
+- **Per-modality encoders:** Lightweight CNN encoders producing multi-scale feature pyramids for each modality.
+- **Super-resolution candidate sampler:** A region proposal module selects candidate boxes with confidence scores; corresponding RGB patches are upsampled by SR module (ResNet-based) to higher resolution and re-encoded.
+- **Attention-guided fusion block:** For each scale, fused features are computed where attention weights are spatially computed and normalized across modalities. Channel and spatial attention components are used to emphasize informative signals.
+- **Detection head:** YOLO-style multi-scale detection heads operate on fused features to predict bounding boxes and class probabilities.
+- **Training objective:** Joint losses combining detection loss (localization + classification + confidence calibration) and SR loss (pixel/perceptual loss for super-resolved patches).
 
 **Rationale for novelty**
 
-- Although SR and multimodal sensing are described in prior literature, the combined pipeline that
-  (i) selectively SRs candidate RGB patches,
-  (ii) re-encodes SR outputs and
-  (iii) fuses multi-scale features via modality-aware attention blocks targeted for insect-scale detection has not been explicitly claimed in the surveyed patents or publications.
+- Although SR and multimodal sensing are described in prior literature, the combined pipeline that (i) selectively applies SR to candidate RGB patches, (ii) re-encodes SR outputs, and (iii) fuses multi-scale features via modality-aware attention blocks targeted for insect-scale detection has not been explicitly claimed in the surveyed patents or publications.
 
 **Example method claim**
 
-> A method for detecting insect pests from aerial imagery comprising: receiving aligned RGB, thermal and NIR image frames; generating multi-scale feature pyramids per modality; identifying candidate regions and applying super-resolution to candidate RGB patches; fusing per-scale modality features using spatially-aware attention; and predicting bounding boxes and classes using a multi-scale detection head.
+> A method for detecting insect pests from aerial imagery comprising: receiving aligned RGB, thermal and NIR image frames; generating multi-scale feature pyramids per modality using convolutional encoders; identifying candidate regions using a proposal network and applying super-resolution to candidate RGB patches; re-encoding super-resolved patches and fusing per-scale modality features using spatially-aware attention mechanisms; and predicting bounding boxes and classes using multi-scale detection heads trained with combined detection and reconstruction objectives.
 
 ---
 
@@ -276,15 +434,17 @@ AIDN was developed to address the specific constraints of detecting insects in U
 
 **Technical specification**
 
-- SR module and detector are trained jointly: the gradient from detection loss is back-propagated into for candidate regions, encouraging SR to preserve features relevant for detection (e.g., wing venation, body edges). Runtime pipeline: performs a fast pass on low-res image to obtain high-confidence proposals; only proposals below a size threshold are sent to for SR and re-scoring.
+- SR module and detector are trained jointly where gradient from detection loss back-propagates into SR parameters for candidate regions, encouraging SR to preserve features relevant for detection (e.g., wing venation, body edges, texture patterns).
+- Runtime pipeline performs fast inference on low-resolution imagery to obtain high-confidence proposals; only proposals below a size threshold are processed by SR module for enhancement and re-scoring.
+- Training employs alternating optimization between SR reconstruction objectives and detection performance metrics.
 
 **Rationale**
 
-- Prior works use SR as preprocessing; co-training SR specifically with a detection objective reduces SR artifacts and focuses reconstruction capacity on discriminative features.
+- Prior works use SR as preprocessing; co-training SR specifically with detection objectives reduces SR artifacts and focuses reconstruction capacity on discriminative features rather than general image quality.
 
 **Example claim sketch**
 
-> A non-transitory machine readable medium storing instructions that cause a system to: generate initial proposals from low-resolution imagery; apply a super-resolution model to candidate proposals; and update both super-resolution and detection model parameters using a combined detection and reconstruction loss.
+> A non-transitory machine readable medium storing instructions that cause a system to: generate initial object proposals from low-resolution aerial imagery; apply a super-resolution model to selected candidate proposals based on size criteria; jointly update both super-resolution and detection model parameters using a combined loss function that includes detection performance metrics and reconstruction quality measures; and deploy the co-trained models for runtime pest detection with selective super-resolution enhancement.
 
 ---
 
@@ -292,15 +452,18 @@ AIDN was developed to address the specific constraints of detecting insects in U
 
 **Technical specification**
 
-- On a laptop ground station, uncertain detections are presented to an operator in batches. The operator labels instances (bounding boxes / classes). A lightweight fine-tuning routine (e.g., 5-20 gradient steps with strong regularization and augmentation) updates a copy of the detector; the updated weights are validated on a small hold-out and, if improvement passes a threshold, deployed to the UAV or used for batch processing.
+- On a ground station computing device, uncertain detections are presented to an operator in ranked batches based on prediction confidence and spatial clustering.
+- The operator provides corrective labels (bounding boxes, class corrections, false positive flags).
+- A lightweight fine-tuning routine employing few-shot learning techniques (5-20 gradient steps with strong regularization and data augmentation) updates detector parameters.
+- Updated weights are validated on a held-out validation set; if performance improvement exceeds a threshold, the model is deployed to UAV systems or used for batch processing.
 
 **Rationale**
 
-- Integrates practical annotation constraints in the field, minimizing labeling burden while producing measurable detection gains.
+- Integrates practical annotation constraints in field environments while minimizing labeling burden and maximizing detection performance gains through targeted human feedback.
 
 **Example claim sketch**
 
-> A method comprising: identifying low-confidence detections from aerial imagery; soliciting human annotation for a small labeled set; performing restricted fine-tuning on a local computing device; and deploying the updated model for subsequent inference.
+> A method comprising: identifying low-confidence pest detections from aerial imagery using uncertainty quantification; presenting ranked uncertain detections to human operators for corrective annotation; performing regularized few-shot fine-tuning on a local computing device using the corrective labels; validating performance improvements on held-out data; and conditionally deploying updated model parameters for subsequent aerial pest detection operations.
 
 ---
 
@@ -308,15 +471,17 @@ AIDN was developed to address the specific constraints of detecting insects in U
 
 **Specification**
 
-- Dataset entries contain: synchronized RGB/thermal/NIR frames, GPS coordinates, altitude, timestamp, camera intrinsics/extrinsics, and per-instance polygonal / bounding annotations with species (if known) and cross-modal reconciliation flags (e.g., thermal-only, RGB-only). Annotation protocol prescribes how to reconcile inconsistent modality visibility (e.g., thermal hotspot corresponding to multiple RGB candidates).
+- Dataset entries containing: synchronized RGB/thermal/NIR frames with precise timestamps, GPS coordinates, flight altitude, camera intrinsics/extrinsics, and per-instance polygonal annotations with species identification and cross-modal visibility flags.
+- Annotation protocol prescribing standardized procedures for reconciling inconsistent modality visibility (e.g., thermal signature present without clear RGB counterpart).
+- Quality assurance workflows including inter-annotator agreement metrics and automated consistency checks across modalities.
 
 **Rationale**
 
-- A standardized, well-documented dataset and annotation protocol supports reproducibility and provides a defensible IP or licensing asset.
+- A standardized, well-documented dataset with comprehensive annotation protocols supports reproducible research and provides a defensible intellectual property or licensing asset for training advanced detection systems.
 
 **Claim sketch**
 
-> A dataset comprising synchronized multispectral aerial frames and corresponding per-instance annotations collected under a defined flight and calibration protocol.
+> A computer-readable dataset comprising synchronized multispectral aerial imagery frames and corresponding georeferenced per-instance pest annotations collected according to a defined flight protocol and annotation standard, wherein annotations include cross-modal visibility indicators and species identification metadata.
 
 ---
 
@@ -324,40 +489,50 @@ AIDN was developed to address the specific constraints of detecting insects in U
 
 **Specification**
 
-- Inputs: geotagged detection set, environmental state (wind vectors, humidity), and crop phenological stage. Output: geo-fenced micro-spray instructions (nozzle selection, spray rate, path planning). Decision module may use thresholds, model-based risk mapping, and economic thresholds adapted for IPM.
+- Input processing: geotagged detection results with confidence scores, real-time environmental parameters (wind speed/direction, humidity, temperature), and crop phenological stage data.
+- Decision algorithms: model-based risk assessment combining pest density mapping, economic threshold calculations, and environmental impact modeling adapted for Integrated Pest Management (IPM) principles.
+- Output generation: georeferenced micro-spray instructions including nozzle selection, application rate, flight path optimization, and timing recommendations.
 
 **Rationale**
 
-- Several patents claim dispensing hardware, but the precise mapping rules and parametrized decision engine may be novel if specific to detection confidence/heatmap derivations and environmental models.
+- While several patents claim dispensing hardware, the specific algorithmic mapping between detection confidence distributions and parametrized environmental decision models may represent novel intellectual property.
 
 **Claim sketch**
 
-> A system for generating actuation instructions based on pest detection density, location, and environmental parameters that issues georeferenced micro-spray commands to an agricultural spraying platform.
+> A system for generating precision actuation instructions comprising: receiving georeferenced pest detection data with confidence measures; analyzing environmental parameters including wind conditions and crop development stage; computing treatment recommendations using economic threshold models and environmental impact assessments; and generating georeferenced micro-application commands for deployment to agricultural spraying platforms.
 
 ---
 
 ## 6. Recommended next steps (technical plan)
 
 1. **Reproduce baseline implementations**
-   - Implement a baseline YOLOv8/YOLOv11 detector on a curated small aerial dataset (collect 1-2 hours of low-altitude drone video, extract frames, annotate).
+   - Implement baseline YOLOv8/YOLOv11 detector on curated aerial pest dataset (collect 2-3 hours of low-altitude drone video, extract representative frames, perform detailed annotation).
+
 2. **Implement modular SR + candidate-region pipeline**
-   - Build SR module (ResNet variant), integrate candidate sampling, and test co-training with detector on held-out data.
-3. **Design and implement attention fusion block**
-   - Prototype modality encoders + spatial/channel attention fusion and measure mAP improvement on multimodal pilot set (RGB+thermal).
-4. **Collect pilot multimodal dataset**
-   - Plan flight missions: low altitude (5-10 m) for visible insect capture, synchronized RGB and thermal recording, GPS logging and GCP capture. Annotate with small-object polygon/bounding boxes and record metadata.
-5. **Ablation and performance reporting**
-   - Quantify GFLOPs, FPS on target hardware (laptop / Jetson), and mAP/recall gains vs. RGB-only baselines. These numbers will support provisional filing if desired.
+   - Develop SR module (ResNet-based architecture), integrate with candidate sampling mechanism, and evaluate co-training performance against traditional preprocessing approaches.
+
+3. **Design and implement attention fusion architecture**
+   - Prototype modality-specific encoders with spatial/channel attention fusion blocks and quantify mAP improvements on multimodal pilot datasets (RGB+thermal combinations).
+
+4. **Collect comprehensive multimodal dataset**
+   - Execute systematic flight missions at optimal altitudes (5-15m) for insect visibility, capture synchronized RGB/thermal recordings with GPS logging and ground control point establishment.
+   - Develop annotation protocols for cross-modal instance reconciliation and implement quality assurance workflows.
+
+5. **Performance characterization and ablation studies**
+   - Quantify computational requirements (GFLOPs, memory usage), inference speed (FPS) on target hardware platforms (laptop/Jetson devices), and detection performance metrics (mAP, recall) versus RGB-only baseline systems.
+   - Document trade-offs between accuracy and computational efficiency to support patent claims and commercial viability assessments.
+
+6. **Patent clearance and filing preparation**
+   - Conduct professional patent clearance search focusing on specific algorithmic claims.
+   - Prepare provisional patent applications emphasizing novel technical contributions with supporting experimental validation.
 
 ---
 
 ## 7. References
 
-- Bai, Y., Hou, F., Fan, X., Lin, W., Lu, J., Zhou, J., Fan, D., & Li, L. (2023). _A Lightweight Pest Detection Model for Drones Based on Transformer and Super-Resolution Sampling Techniques._ **Agriculture**, 13(9), 1812. https://doi.org/10.3390/agriculture13091812.  
-  (Full text & architectural description available at MDPI; sections 3.3-3.4 describe the SR module and Transformer detector, with experimental metrics reported.)
+- Bai, Y., Hou, F., Fan, X., Lin, W., Lu, J., Zhou, J., Fan, D., & Li, L. (2023). _A Lightweight Pest Detection Model for Drones Based on Transformer and Super-Resolution Sampling Techniques._ **Agriculture**, 13(9), 1812. https://doi.org/10.3390/agriculture13091812.
 
-- _Advanced Insect Detection Network (AIDN) for UAV-Based Biodiversity Monitoring._ **Remote Sensing**, 2024. https://www.mdpi.com/2072-4292/17/6/962.  
-  (Paper describes MSFF, attention modules, loss formulation, and per-scale head design; reported mAP ≈ 0.89 on test sets.)
+- _Advanced Insect Detection Network (AIDN) for UAV-Based Biodiversity Monitoring._ **Remote Sensing**, 2024. https://www.mdpi.com/2072-4292/17/6/962.
 
 - Alsadik, B., Ellsäßer, F. J., Awawdeh, M., et al. (2024). _Remote Sensing Technologies Using UAVs for Pest and Disease Monitoring: A Review Centered on Date Palm Trees._ **Remote Sensing**, 16(23), 4371. https://doi.org/10.3390/rs16234371.
 
@@ -365,18 +540,31 @@ AIDN was developed to address the specific constraints of detecting insects in U
 
 - _A Framework for Agricultural Pest and Disease Monitoring Based on IoT and UAVs._ (PMC) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7085563/
 
+- Nasim, S., Rashid, M., & Yousha, S. (2025). _Artificial intelligence driven drone observation and pest control in banana crop: A systematic review._ **Khyber Journal of Medical Research**, 2(1). https://doi.org/10.71146/kjmr197.
+
+- Josephat, A., Sekar, A., Deepa, T., & Angalaeswari, S. (2025). _Design and development of agricultural drone for precision fertilizer application to optimize crop yields._ **Results in Engineering**, 17, 106267. https://doi.org/10.1016/j.rineng.2025.106267.
+
+- Safaeinejad, M., Ghasemi-Nejad-Raeini, M., & Taki, M. (2025). _Reducing energy and environmental footprint in agriculture: A study on drone spraying vs. conventional methods._ **PLOS ONE**, 20(6). https://doi.org/10.1371/journal.pone.0323779.
+
 **Patents**
 
 - US 2017/0231213 A1 - _Pest Abatement Utilizing an Aerial Drone._ https://patents.google.com/patent/US20170231213A1/en.
 - US 2017/0089761 A1 - _Spectral Imaging System for Remote and Noninvasive Detection._ https://patents.google.com/patent/US20170089761A1/en.
 - US 2022/0211026 A1 - _System and Method for Field Treatment and Monitoring._ https://patents.google.com/patent/US20220211026A1/en.
 - US 10,364,029 B2 - _Drone for Agriculture_ (spraying platform). https://patents.google.com/patent/US10364029B2.
+- WO 2021/196062 A1 - _Agricultural Drone System for Pest Control._ https://patents.google.com/patent/WO2021196062A1/en.
+- JP 3217561 U - _Pest Control Drone Utility Model._ https://patents.google.com/patent/JP3217561U/en.
+- US 11,147,257 B2 - _Autonomous Agricultural System with Pest Detection._ https://patents.google.com/patent/US11147257B2/en.
+- KR 20230062713 A - _Smart Pest Control Drone System._ https://patents.google.com/patent/KR20230062713A/en.
 
 ---
 
 ### Conclusion
 
-The literature and patent landscape suggest that a technically rigorous contribution can be advanced by
-(i) specifying a reproducible fusion architecture for multimodal aerial data
-(ii) demonstrating detection gains via SR + co-training and attention fusion
-(iii) publishing a well-documented multimodal aerial dataset with per-instance annotations. If formal protection is desired, provisional claims should be drafted around concrete algorithmic steps and system workflows and refined through a professional IP clearance search.
+The literature and patent landscape analysis reveals significant opportunities for technical innovation in UAV-based agricultural pest surveillance. While existing works have made progress in individual components (super-resolution, attention mechanisms, multimodal sensing), integrated approaches combining these techniques specifically for aerial insect detection remain underexplored. 
+
+The patent landscape shows heavy emphasis on hardware and general system integration, leaving substantial room for algorithmic innovations. Recent literature from 2025 demonstrates growing momentum in this field, with strong evidence supporting both technical feasibility and environmental benefits of drone-based approaches.
+
+A technically rigorous contribution can be advanced through: (i) developing reproducible fusion architectures for multimodal aerial data, (ii) demonstrating quantifiable detection improvements via co-trained SR and attention fusion mechanisms, and (iii) establishing standardized multimodal datasets with comprehensive annotation protocols. 
+
+For formal intellectual property protection, provisional patent applications should focus on concrete algorithmic innovations and system workflows, supported by experimental validation and professional prior art clearance. The identified novelty directions provide a strong foundation for both academic contributions and commercial applications in precision agriculture.
