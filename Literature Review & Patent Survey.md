@@ -37,7 +37,7 @@ This document consolidates the most relevant academic contributions and patent f
 
 ### IP102 (Wang et al. - large insect dataset)
 
-- **Content:** approx. 75k images spanning 102 insect categories (various life stages / viewpoints).
+- **Content:** approx. 75k images, spanning 102 insect categories (various life stages / viewpoints).
 - **Typical use:** classification pretraining, transfer to detection tasks (requires bounding annotations for object detection usage; some community-contributed conversions to YOLO format exist).
 - **Limitations for UAV tasks:** largely ground-level or hand-held captures; object scale and background context differ from aerial imagery (scale mismatch).
 - **Implication:** recommended as a pretraining resource for feature extraction, followed by domain adaptation (fine-tuning) on aerially collected images.
