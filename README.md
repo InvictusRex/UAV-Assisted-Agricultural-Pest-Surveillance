@@ -36,14 +36,14 @@ YOLO v8 was trained on the pests dataset with an 85.5 percent accuracy. The conf
 <img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/9d30e0cd-8179-401b-99f6-348e2b6ea6f1" />
 <img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/5ff4e7eb-e6cb-48c2-bd0c-4cf2f5413c20" />
 
-# High accuracy classes:
+### High accuracy classes:
 - Moth (0.99), Snail (1.00), Wasp (0.97), Weevil (1.00), and Ants (0.87) are classified with strong precision.
 
-# Moderate/Confused classes:
+### Moderate/Confused classes:
 - Beetle, Caterpillar, and Earwig show noticeable misclassifications, often being confused with each other.
 - Grasshopper and Slug exhibit cross-class confusion (e.g., slug ↔ earthworms at 0.29).
 
-# Common confusion trends:
+### Common confusion trends:
 - Beetles and Wasps are frequently mistaken for each other.
 - Caterpillar overlaps with Bees and Beetles.
 - Earwigs and Earthworms show high mutual misclassification.
