@@ -29,3 +29,21 @@ UAV-Assisted Agricultural Pest Surveillance is a deep learning-powered system fo
 - [WO 2021/196062 A1 - Agricultural Drone System for Pest Control](https://patents.google.com/patent/WO2021196062A1/en)
 - [JP 3217561 U - Pest Control Drone Utility Model](https://patents.google.com/patent/JP3217561U/en)
 - [KR 20230062713 A - Smart Pest Control Drone System](https://patents.google.com/patent/KR20230062713A/en)
+
+## YOLO v8 Training Results on Pests Dataset
+
+YOLO v8 was trained on the pests dataset with an 85.5 percent accuracy. The confusion matrix is below
+<img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/9d30e0cd-8179-401b-99f6-348e2b6ea6f1" />
+<img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/5ff4e7eb-e6cb-48c2-bd0c-4cf2f5413c20" />
+
+# High accuracy classes:
+- Moth (0.99), Snail (1.00), Wasp (0.97), Weevil (1.00), and Ants (0.87) are classified with strong precision.
+
+# Moderate/Confused classes:
+- Beetle, Caterpillar, and Earwig show noticeable misclassifications, often being confused with each other.
+- Grasshopper and Slug exhibit cross-class confusion (e.g., slug ↔ earthworms at 0.29).
+
+# Common confusion trends:
+- Beetles and Wasps are frequently mistaken for each other.
+- Caterpillar overlaps with Bees and Beetles.
+- Earwigs and Earthworms show high mutual misclassification.
